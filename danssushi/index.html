@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dan's Sushi</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Social Media Buttons Library-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- external js -->
+    <script src="script.js"></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header menu -->
+    <div class="headermenu">
+      <p>
+        <a href="index.html">Home</a>
+        |
+        <a href="contact.html">Contact Us</a>
+      </p>
+    </div>
+    <!-- header -->
+    <div class="header">
+      <br />
+      <center class="center">
+        <img src="/images/nigiri_salmon.jpg" alt="Salmon Nigiri" height="128" />
+        <img src="/images/maki_dragon.jpg" alt="Dragon Roll Maki" height="128" />
+        <img src="/images/logo.jpg" alt="logo" />
+        <img src="/images/maki_spicytuna.jpg" alt="Spicy Tuna Maki" height="128" />
+        <img src="/images/nigiri_shrimp.jpg" alt="Shrimp Nigiri" height="128" />
+      </center>
+      <center>
+        <h3>
+          Welcome to Dan's Sushi, a shop with a growing array of sushi made for pick up and local
+          delivery in Downtown Toronto.
+        </h3>
+      </center>
+    </div>
+
+    <!-- table -->
+    <div>
+      <center>
+        <p id="demo"></p>
+        <input type="button" class="btn" value="All" onclick="filterProduct('All');" />
+        <input
+          type="button"
+          class="btn"
+          value="Nigirizushi"
+          onclick="filterProduct('Nigirizushi');"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="Gunkanmaki"
+          onclick="filterProduct('Gunkanmaki');"
+        />
+        <input type="button" class="btn" value="Makizushi" onclick="filterProduct('Makizushi');" />
+        <input type="button" class="btn" value="Drinks" onclick="filterProduct('Drinks');" />
+        <input type="button" class="btn" value="Desserts" onclick="filterProduct('Desserts');" />
+
+        <table border="0" id="productsTable">
+          <tr class="firstRow">
+            <td><p>IMAGE</p></td>
+            <td><p>NAME</p></td>
+            <td><p>PIECES</p></td>
+            <td><p>DESCRIPTION</p></td>
+            <td><p>PRICE</p></td>
+            <td><p>CATEGORY</p></td>
+            <td><p>QUANTITY</p></td>
+            <td><p>ADD TO CART</p></td>
+          </tr>
+        </table>
+      </center>
+    </div>
+
+    <!-- return to top button -->
+    <div>
+      <center>
+        <input
+          type="button"
+          style="color:black"
+          style="background-color:white"
+          class="btn"
+          value="Top"
+          onclick="topFunction();"
+        />
+      </center>
+    </div>
+    <br /><br /><br /><br /><br />
+    <!-- footer -->
+    <div class="footer">
+      <footer>
+        <center>
+          <table border="0">
+            <tr>
+              <td>
+                <p><b>Dan's Sushi</b><br />777 Sushi Street<br />Toronto, ON<br />M5X1A1</p>
+              </td>
+              <td>
+                <p>
+                  <b>Operating Hours</b><br />Mon-Thurs 10am-10pm<br />Fri-Sat 10am-11pm<br />Sun
+                  Closed
+                </p>
+              </td>
+              <td>
+                <p>
+                  <b>Contact</b><br />Phone 416-555-5555<br />Email
+                  <a href="order@danssushi.com">order@danssushi.com</a>
+                </p>
+              </td>
+              <td>
+                <a
+                  href="https://www.instagram.com/dandanssushi/?hl=en"
+                  target="_blank"
+                  class="fa fa-instagram"
+                ></a>
+                <a
+                  href="https://twitter.com/dandanssushi"
+                  target="_blank"
+                  class="fa fa-twitter"
+                ></a>
+              </td>
+              <td>
+                <b>Subscribe to our newsletter for updates and promotions!</b><br /><br />
+                <form action="https://formspree.io/f/xleopjrg" target="_blank" method="POST">
+                  <input type="text" name="name" placeholder="Name" />
+                  <input type="email" name="_replyto" placeholder="Email" />
+                  <input
+                    type="submit"
+                    style="color:black"
+                    style="background-color:white"
+                    class="btn"
+                    value="Subscribe"
+                  />
+                </form>
+              </td>
+            </tr>
+          </table>
+        </center>
+      </footer>
+    </div>
+  </body>
+</html>
