@@ -240,6 +240,7 @@ function filterProduct(sushi) {
       }
     }
   }
+
   function myFunction() {
     var x = document.getElementById('productsTable').rows.length;
     document.getElementById('demo').innerHTML =
