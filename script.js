@@ -262,7 +262,7 @@ function orderProblem() {
   y.setAttribute('value', 'Invoice number');
   var x = document.getElementById('orderNo').appendChild(y);
   orderNo.innerHTML =
-    '<div id="invoice"><label for="orderNo">Order # </label><input type="text" name="orderNo" pattern=".*[0-9]" required/></div>';
+    '<div id="invoice"><label for="orderNo">Order # </label><input type="text" name="orderNo" pattern="[0-9]*" required/></div>';
 }
 
 //contact us - remove order problem
