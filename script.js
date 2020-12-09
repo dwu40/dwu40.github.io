@@ -6,7 +6,7 @@ var products = [
     description: 'Hand-pressed sushi with salmon',
     price: 5.0,
     category: 'Nigirizushi',
-    imageUrl: '/images/nigiri_salmon.jpg'
+    imageUrl: 'images/nigiri_salmon.jpg'
   },
   {
     name: 'Shrimp Nigiri',
@@ -14,7 +14,7 @@ var products = [
     description: 'Hand-pressed sushi with shrimp',
     price: 5.0,
     category: 'Nigirizushi',
-    imageUrl: '/images/nigiri_shrimp.jpg'
+    imageUrl: 'images/nigiri_shrimp.jpg'
   },
   {
     name: 'Tuna Nigiri',
@@ -22,7 +22,7 @@ var products = [
     description: 'Hand-pressed sushi with tuna',
     price: 5.0,
     category: 'Nigirizushi',
-    imageUrl: '/images/nigiri_tuna.jpg'
+    imageUrl: 'images/nigiri_tuna.jpg'
   },
   {
     name: 'Unagi Nigiri',
@@ -30,7 +30,7 @@ var products = [
     description: 'Hand-pressed sushi with eel',
     price: 5.0,
     category: 'Nigirizushi',
-    imageUrl: '/images/nigiri_unagi.jpg'
+    imageUrl: 'images/nigiri_unagi.jpg'
   },
   {
     name: 'Uni Nigiri',
@@ -38,7 +38,7 @@ var products = [
     description: 'Hand-pressed sushi with sea urchin',
     price: 5.0,
     category: 'Nigirizushi',
-    imageUrl: '/images/nigiri_uni.jpg'
+    imageUrl: 'images/nigiri_uni.jpg'
   },
   {
     name: 'Ikura Gunkanmaki',
@@ -46,7 +46,7 @@ var products = [
     description: 'Hand-pressed sushi with salmon roe',
     price: 5.0,
     category: 'Gunkanmaki',
-    imageUrl: '/images/nigiri_ikura.jpg'
+    imageUrl: 'images/nigiri_ikura.jpg'
   },
   {
     name: 'Negitoro Gunkanmaki',
@@ -54,7 +54,7 @@ var products = [
     description: 'Hand-pressed sushi with fatty tuna',
     price: 5.0,
     category: 'Gunkanmaki',
-    imageUrl: '/images/nigiri_negitoro.jpg'
+    imageUrl: 'images/nigiri_negitoro.jpg'
   },
   {
     name: 'Avocado Rolls',
@@ -62,7 +62,7 @@ var products = [
     description: 'Rolled sushi with avocado',
     price: 7.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_avocado.jpg'
+    imageUrl: 'images/maki_avocado.jpg'
   },
   {
     name: 'California Rolls',
@@ -70,7 +70,7 @@ var products = [
     description: 'Rolled sushi with avocado, crab, cucumber, and tobiko roe',
     price: 9.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_california.jpg'
+    imageUrl: 'images/maki_california.jpg'
   },
   {
     name: 'Cucumber Rolls',
@@ -78,7 +78,7 @@ var products = [
     description: 'Rolled sushi with cucumber',
     price: 7.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_cucumber.jpg'
+    imageUrl: 'images/maki_cucumber.jpg'
   },
   {
     name: 'Dragon Rolls',
@@ -87,7 +87,7 @@ var products = [
       'Rolled sushi with shrimp tempura, avocado, cucumber, spicy mayonnaise, unagi sauce, and tobiko roe',
     price: 9.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_dragon.jpg'
+    imageUrl: 'images/maki_dragon.jpg'
   },
   {
     name: 'Dynamite Rolls',
@@ -96,7 +96,7 @@ var products = [
       'Rolled sushi with yellowtail, prawn tempura, carrots, avocado, cucumber, spicy mayonnaise, and capelin roe',
     price: 9.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_dynamite.jpg'
+    imageUrl: 'images/maki_dynamite.jpg'
   },
   {
     name: 'Philadelphia Rolls',
@@ -104,7 +104,7 @@ var products = [
     description: 'Rolled sushi with smoked salmon, cream cheese, and avocado',
     price: 9.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_philadelphia.jpg'
+    imageUrl: 'images/maki_philadelphia.jpg'
   },
   {
     name: 'Salmon Rolls',
@@ -112,7 +112,7 @@ var products = [
     description: 'Rolled sushi with salmon',
     price: 8.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_salmon.jpg'
+    imageUrl: 'images/maki_salmon.jpg'
   },
   {
     name: 'Spicy Tuna Rolls',
@@ -120,7 +120,7 @@ var products = [
     description: 'Rolled sushi with tuna, and spicy mayonnaise',
     price: 8.0,
     category: 'Makizushi',
-    imageUrl: '/images/maki_spicytuna.jpg'
+    imageUrl: 'images/maki_spicytuna.jpg'
   },
   {
     name: 'Milk',
@@ -128,7 +128,7 @@ var products = [
     description: 'Golden milk',
     price: 9999.0,
     category: 'Drinks',
-    imageUrl: '/images/drinks_milk.jpg'
+    imageUrl: 'images/drinks_milk.jpg'
   },
   {
     name: 'Cake',
@@ -136,7 +136,7 @@ var products = [
     description: 'Golden cake',
     price: 9999.0,
     category: 'Desserts',
-    imageUrl: '/images/desserts_cake.jpg'
+    imageUrl: 'images/desserts_cake.jpg'
   }
 ];
 
