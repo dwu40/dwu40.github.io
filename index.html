@@ -12,44 +12,48 @@
             'header header header header header header'
             'menu body body body body body'
             'footer footer footer footer footer footer';
-            grid-gap: 10px;
-            padding: 10px;
+            /* grid-gap: 10px;
+            padding: 10px; */
         }
         .grid-container > div{
             /* background-color: gray; */
-            text-align: center;
-            padding: 20px 0;
+            text-align: none;
+            /* padding: 20px 0; */
             font-size: 30px;
         }
 
         .header{
             grid-area: header;
-            background-color: palegoldenrod;
+            background-color: white;
             text-align: center;
+            /* border: 5px solid black; */
+            /* border-top: 10px solid black; */
+            border-bottom: 10px solid darkturquoise;
         }
 
         .menu{
             grid-area: menu;
-            background-color: palegreen;
+            background-color: paleturquoise;
             text-align: center;
+            /* border: 5px solid white; */
         }
 
         .button{
             display: block;
-            background-color: #4CAF50;
-            border: 1px solid green;
-            color: white;
+            background-color: paleturquoise;
+            border: 0px solid paleturquoise;
+            color: black;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
             font-size: 16px;
             cursor: pointer;
             width: 150px;
-            border-bottom: none;
+            /* border-bottom: none; */
         }
-
         .button:hover{
-            background-color: #3e8e41;
+            background-color: red;
+            color: white;
         }
 
         .flex-container{
@@ -59,31 +63,74 @@
             flex-wrap: wrap; */
             flex-flow: row wrap;
             /* justify-content: space-around; */
+            /* border: 1px solid white; */
+            justify-content: center;
+            
+            
+        }
+
+        .flex-item:hover{
+            background-color: red;
+            color: white;
         }
 
         .flex-container > div{
             background-color: paleturquoise;
-            width: 200px;
             margin: 10px;
             padding: 10px;
             text-align: center;
-            line-height: 200px;
             font-size: 20px;
+            /* border: 1px solid white; */
+            width: 200px;
+            line-height: 200px;
+            border-radius: 0px;
+
         }
 
         .footer{
             grid-area: footer;
-            background-color: palevioletred;
+            background-color: red;
+            text-align: right;
+            color: white;
+            /* border: 5px solid white; */
+            /* border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px; */
+        }
+
+        .logo{
             text-align: center;
         }
 
+        a{
+            color:black;
+        }
+        a:link{
+            color:none;
+            text-decoration: none;
+        }
+        a:visited{
+            color:black;
+            text-decoration: none;
+        }
+        a:hover{
+            color:white;
+            text-decoration: none;
+        }
+        a:active{
+            color:white;
+            text-decoration: none;
+        }
+
+        body{
+            background-color: white;
+        }
     </style>
 </head>
 <body>
     <div class="grid-container">
-        <div class="header">Welcome to my portfolio</div>
+        <div class="header"><div class="logo"><img src="images/logo.jpg" alt="logo"></div></div>
         <div class="menu">
-            <button class="button" type="button">Home</button>
+           <a href="https://dwu40.github.io/"><button class="button" type="button">Home</button></a>
             <button class="button" type="button">Projects</button>
             <button class="button" type="button">C</button>
             <button class="button" type="button">C++</button>
@@ -92,7 +139,8 @@
             <button class="button" type="button">About</button>
             <button class="button" type="button">Contact</button>
         </div>
-        <div class="body"><p>These are my projects</p>
+        <div class="body">
+            <!-- <p>These are my projects</p> -->
             <div class="flex-container">
                 <div class="flex-item"><a href="https://dwu40.github.io/danssushi/" target="_blank">Dan's Sushi</a></div>
                 <div class="flex-item"><a href="https://dwu40.github.io/womenastronauts/" target="_blank">Women Astronauts</a></div>
@@ -103,7 +151,8 @@
                 <div class="flex-item">7</div>
                 <div class="flex-item">8</div>
                 <div class="flex-item">9</div>
-            </div></div>
+            </div>
+        </div>
         
         <div class="footer">Goodbye</div>
     </div>
